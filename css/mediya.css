@@ -1,0 +1,119 @@
+/* ===========================
+    for mobile device
+=========================== */
+@media screen and (max-width: 576px) {
+    /* ===========navigation menu start============== */
+
+  
+    /* ===========navigation menu end============== */
+
+body{
+    /* background-color: red; */
+}
+
+    /* ===========benner part start============== */
+    #benner {
+        padding-top: 110px;
+        padding-bottom: 80px;
+    }
+    .benner_text {
+        max-width: 550px;
+    }
+    .benner_text h1 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .benner_text p {
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom:50px;
+    }
+    /* ===========benner part end============== */
+
+    /* ===========service part start============== */
+    .main_service .item {
+        width: 100%;
+        padding: 26px 0;
+    }
+    .main_service .item p {
+        padding: 0 118px;
+    }
+    .main_service .item h3 {
+        padding-top: 22px;
+        padding-bottom: 4px;
+    }
+    /* ===========service part end============== */
+
+    /* ===========project part start============== */
+    #project .project_item {
+        max-width: 100%;
+    }
+    #project {
+        justify-content: center;
+        /* row-gap: 10px; */
+    }
+    #project .project_item {
+        max-width: 50%;
+    }
+    /* ===========project part end============== */
+
+    /* ===========team part start============== */
+    .team_main {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+    }
+    .team_item {
+        width: 95%;
+    }
+    .team_item h3 {
+        font-size: 25px;
+    }
+    .team_item h4 {
+        font-size: 17px;
+    }
+    .team_item p {
+        font-size: 16px;
+    }
+    /* ===========team part end============== */
+
+
+    /* ===========client part start============== */
+    .main_client .client_image {
+        width: 100%;
+    }
+    .main_client .client_text {
+        width: 100%;
+        text-align: start;
+
+    }
+    .main_client .client_text .text h5 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    /* ===========client part end============== */
+
+
+    /* ===========purchase main start============== */
+    #purchase {
+        padding: 50px 0;
+    }
+    .purchase_main h3 {
+        font-size: 22px;
+    }
+    .purchase_main a {
+        padding: 14px 45px;
+    }
+    /* ===========purchase main end============== */
+
+    /* ===========footer part start============== */
+    #footer .footer_main {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer_item h3 {
+        font-size: 18px;
+        padding-bottom: 12px;
+    }
+    /* ===========footer part end============== */
+}
